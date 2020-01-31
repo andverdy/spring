@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="spring">
+
+	<Resource auth="Container"
+		driverClassName="com.mysql.jdbc.Driver" name="jdbc/localTwo"
+		username="root" password="123stella" type="javax.sql.DataSource"
+		url="jdbc:mysql://localhost:3306/world" maxTotal="20"
+		validationQuery="select count(1)" />
+
+</Context>
